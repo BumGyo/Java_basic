@@ -1,0 +1,28 @@
+* 자바에서 제공해주는 컬렉션 클래스를 사용해서 사용자가 입력한 
+   학생 성적 정보들을 무한대로 메모리에 계속해서 저장하기
+
+1. import java.util.ArrayList;
+예) ArrayList<String> 참조변수이름 = new ArrayList<String>();
+
+2. 새로운 학생 클래스를 만들어서 사용자가 윈도우 창에서 입력한 학생 이름,
+    국어 점수, 영어 점수, 수학 점수들을 따로 보관하기
+class 새로운_학생클래스이름 {
+
+    // 나중에 데이터를 꺼내올 때 사용할 학생 구분 값을 보관할 변수 선언
+    private int no; // 학생 번호 보관 변수 선언 : 1 -> 2 -> 3 -> ...
+
+    // 학생 이름 보관 변수 선언
+    private String name;
+    // 국어 점수 보관 변수 선언
+    private int kor;
+    // 영어 점수 보관 변수 선언
+    private int eng;
+    // 수학 점수 보관 변수 선언
+    private int math;
+    // 총점 보관 변수 선언
+    private int total;
+    // 평균 보관 변수 선언
+    private double avg;
+}
+
+

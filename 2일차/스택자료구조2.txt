@@ -1,0 +1,43 @@
+* 스택 자료 구조(Stack Data Structure)
+
+1. 정의 : 후입 선출 또는 선입 후출
+-> Last Input First Output
+-> 메모리를 밑이 없는 원통
+-> 데이터의 입력 형태 : 아래 방향에서 윗 방향
+-> 데이터의 출력 형태 : 윗 방행에서 아래 방향
+-> 방향을 제어할 수 있는 변수가 필요 : 
+   top 변수 : 메모리에 가장 늦게 입력된
+    데이터의 위치를 보관하고 있는 변수
+예) // 10개의 정수를 보관할 수 있는 배열
+    int iarray[] = new int [10];
+    // 동적 배열을 사용해서 배열을 선언 +
+    // 메모리에 생성
+    ArrayList<String> refStringList = 
+        new ArrayList<String>( );
+    // iarray 배열의 가장 마지막에 입력된
+    // 데이터의 위치를 보관할 top 변수가 필요
+    int top1 = -1; // int top1 = 0;
+    // 동적 배열 refStringList에 가장
+    // 마지막에 도착한 데이터의 위치를 보관할
+    // top 변수가 필요
+    int top2 = -1; // int top2 = 0;
+// -> 새로운 클래스를 만들어주세요: 
+//    TestStackClass
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

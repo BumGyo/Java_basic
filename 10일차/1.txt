@@ -1,0 +1,57 @@
+* 총 4가지로 외부 클래스와 내부 클래스 관계를 설정 가능
+
+3. 이름이 없는 내부 클래스를 정의할 수 있습니다!!!
+   -> Anonymous Class
+   -> 이벤트 처리할 때 많이 사용
+   -> 단 한번만 사용할 수 있는 클래스
+
+예) sendBtn.addActionListener(new ActionListener() {
+        // ActionListener 인터페이스에서 가지고 있었던
+        // 추상 메서드를 재정의(구현)
+        @Override
+        public void actionPerformed(ActionEvent ae) {
+             // 사용자가 버튼을 클릭하는 시점에만
+             // 실행될 명령어를 작성
+        }
+    });
+-> addActionListener( ) 함수의 역할 : 자바 가상 머신에게
+   사용자가 saveBtn 버튼을 클릭했을 때 actionPerformed( )
+   함수 안에 작성한 명령어를 실행하라고 정보를 알려줌
+   -> 이벤트 소스(버튼)와 이벤트 처리기(이벤트 처리 함수인
+      actionPerformed( ))를 연결시켜줍니다!!
+
+-> 무명 클래스를 정의할 때에는 이벤트 처리에 사용할 함수와
+   add + 프로그램에서 처리할 이벤트 이름(인터페이스 이름)
+   를 알아야 합니다!!
+
+이벤트소스참조변수이름.addActionListener(무명 클래스를 생성);
+-> 무명 클래스를 생성 : 이름을 작성하면 안됩니다!!
+   -> new 인터페이스이름( )
+   또는
+   -> new 클래스이름( )
+예) sendBtn.addActionListener(new ActionListener() {
+         // 인터페이스 또는 클래스에서 갖고 있는 메서드를 재정의
+         @Override
+         public void actionPerformed(ActionEvent ae) {
+            // 명령어를 작성
+         }
+    });
+
+
+
+
+예) main( ) 함수에서 new ActionListener() // 에러(오류)
+-> new + 인터페이스이름( ) : 오류가 발생 : 추상 메서드를
+   갖고 있는 인터페이스를 사용해서는 메모리에 객체를
+   생성할 수 없기 때문
+
+
+
+
+
+
+
+
+
+
+

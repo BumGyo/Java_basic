@@ -1,0 +1,31 @@
+* LinkedList 자료 구조에 대한 이해
+
+1. 정의 : Linked + List(항목 : 데이터 + 주소)
+
+* 노드(Node)
+  : 데이터 + 다음에 연결될 데이터의 주소
+
+* 참고로 배열(Array) : int iarray[] = new int[5];
+ -> iarray[0] + iarray[1] + iarray[2] + iarray[3] + 
+    iarray[4]
+ -> &iarray[0]&iarray[1]&iarray[2]&iarray[3]&iarray[4]
+
+2. 장점 : 새로운 데이터의 삽입(Insertion)과 
+    삭제(Deletion)시에 현재 노드의 주소만 새로운
+    노드의 주소로 교체(Replacement)
+
+3. 단점 : 데이터를 검색(Searching) : 주소가 연속적이지
+   않은 노드 공간들이 많을 수록 느려질 수 있습니다!!
+
+
+
+
+
+
+
+
+
+
+
+
+

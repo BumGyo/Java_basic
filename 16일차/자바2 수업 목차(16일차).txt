@@ -1,0 +1,62 @@
+[평일] 자바2 수업 목차(16일차)
+
+1. 프로그램에서 select sql 명령어를 문자열로 저장한 다음에
+   오라클 데이터베이스로 전달하기
+
+String selectSQL = "select * from tbl_student";
+
+2. try~catch 블럭을 작성하기 : 예외상황을 대비합니다!!
+-> try {
+      // 명령어를 작성
+   } catch(SQLException sqle) {
+      // 명령어가 실행되는 시점에 예외상황이 발생하면
+      // 실행할 명령어들을 작성
+   }
+
+3. "select * from tbl_student" 문자열을 바로 실행할 수는
+   없습니다!! -> 객체로 만들어 주셔야 합니다!!
+1) Statement 인터페이스를 사용하기 : 
+예) select * from 테이블이름;
+예) select 컬럼이름1, 컬럼이름2 from 테이블이름;
+-> select sql 명령어 내용이 변하지 않는 경우에 사용
+-> 정적(Static) 또는 고정 방식
+2) PreparedStatement 인터페이스를 사용하기
+-> select sql 명령어 내용이 변하는 경우에 사용
+-> 동적(Dynamic) 또는 가변 방식
+-> select sql 명령어에서 where 조건절을 작성하는 경우
+예) select * from 테이블이름 where 조건 ;
+예) "남자" 조건에 만족하는 데이터들만 조회하고 싶은 경우
+-> select * from tbl_student 
+    where student_gender = '남자';
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

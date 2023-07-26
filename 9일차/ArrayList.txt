@@ -1,0 +1,8 @@
+* ArrayList 클래스를 사용해서 동적 배열을 만들고
+  큐 자료 구조를 구현하기
+
+class MyQueue2 {
+   // 동적 배열을 생성하기
+   private ArrayList<Integer> 
+              refArray = new ArrayList<Integer>( );
+}

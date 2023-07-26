@@ -1,0 +1,62 @@
+* 소켓(Socket)을 사용해서 클라이언트와 서버를 식별하는
+  예제를 만듭니다!!
+
+1. 서버 쪽 알고리즘
+
+1) 서버 소켓 클래스를 사용해서 현재 클래스에 대한
+   포트 번호를 부여하기
+
+가. ServerSocket  참조변수이름 = 
+                    new ServerSocket(서버 컴퓨터 구분 정수);
+   서버 컴퓨터 구분 정수 : 0 ~ 65535 사이에 있는 하나의 정수
+   -> 현재 네트워크에서 사용하고 있지 않은 포트 번호를 사용
+
+ServerSocket refServerSocket = new ServerSocket( 0 );
+
+System.out.println("현재 네트워크에서 사용하고 있지 않은 ");
+System.out.println("포트 번호를 알아오기!!");
+
+// ServerSocket 서버 클래스가 갖고 있는 getLocalPort( )
+// -> 함수를 호출하면 생성자 함수가 구한 포트 번호를 알려줌
+int portNo = refServerSocket.getLocalPort( );
+
+// 모니터 화면에 포트 번호를 출력하기
+System.out.println("포트 번호는 "+ portNo);
+
+// 네트워크 관련 프로그램 구현시 주의 사항 : 예외상황 고려
+try {
+
+} catch(java.io.IOException 예외처리변수이름) {
+   // 네트워크 관련 예외상황을 처리할 수 있는 명령어들을 작성
+} catch(Exception 예외처리변수이름) {
+   // 위쪽에서 작성한 catch 블럭에서 처리할 수 없는
+   // 예외상황을 만나는 경우에 실행할 명령어들을 작성
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

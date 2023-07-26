@@ -1,0 +1,12 @@
+* 학생 데이터들을 보관할 수 있는 테이블을 만들어주는
+  create table 명령어를 갖는 파일 만들기 
+
+1) 작업 디렉토리를 만들어 주세요: 
+   c:\java_sql_dir
+
+2) 파일 이름은 create_student_table.sql
+
+3) create_student_table.sql 안으로 이동하시기 바랍니다.
+
+
+

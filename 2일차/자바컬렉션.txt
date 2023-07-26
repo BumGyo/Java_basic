@@ -1,0 +1,22 @@
+* 자바에서는 컬렉션(Collection)
+-> 데이터를 종류별로 분류(그룹 분류)
+-> 1) 리스트(List) : 배열의 확장 : 
+      배열의 크기가 자동으로 늘어나게 설계
+-> 기본적으로 최대 10개의 데이터를 저장
+-> 11번째 데이터 부터는 배열의 크기가 20으로
+   늘어납니다!!
+-> java.util 패키지에 있는 인터페이스
+예) import java.util.*;
+예) import java.util.List; // 인터페이스
+예) import java.util.ArrayList; // 클래스
+클래스 계층도 : 
+     List ( ArrayList 클래스가 갖을 변수와
+            함수들을 뽑아놓은 부모 인터페이스)
+      |
+   ArrayList
+예) List list = new List(); // 오류
+예) List list2 = new ArrayList(); // 정상
+
+-> 2) 셋(Set)
+-> 3) 맵(Map)
+

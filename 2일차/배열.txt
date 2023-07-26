@@ -1,0 +1,54 @@
+* 배열(Array) : 순차 리스트(Sequence List)
+-> 같은 종류의 변수들을 하나의 이름으로 묶어 놓음
+
+예) 자료형 + 배열이름 + 대괄호 연산자; // 배열 선언
+    // 최대 10개의 정수를 보관할 수 있는 배열 선언
+    int iarray[ ];
+    // int iarray[크기]; // 오류
+    // int iarray[5]; // 오류 -> 컴파일 시에 메모리 공간을
+    // 결정(c 언어 스타일)
+    
+    // new 연산자를 사용해서 최대 10개의 정수를 보관할 수
+    // 있는 배열 공간들을 만들기
+    iarray = new int[10];
+
+    // for 반복문과 함께 사용해서 배열에 보관되어 있는
+    // 값들을 읽어오기
+    for( int index = 0; index < iarray.length; index++ )
+      System.out.
+  println("배열 iarray["+index+"] 위치에 있는 값은 "+ 
+      iarray[index]); // 총10개의 0이 출력되어야 합니다!!
+// 이클립스 프로그램을 실행하신 후에 새로운 Java Project 
+// 자바 프로젝트를 만들어 주세요 : 
+// 이름은 TestDSJavaProject
+// -> 새로운 자바 클래스 파일도 만들어주세요: 
+//    이름은 TestArrayClass
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,17 @@
+* 사용자가 학생 정보 저장하기 버튼을
+  클릭하는 경우에 발생하는 이벤트를
+  프로그램에서 처리하기
+
+1. 이벤트가 발생할 소스 : 버튼(Button)
+2. 이벤트 처리 클래스 이름 : 
+      ActionEvent   // java.awt.event 패키지
+3. 이벤트 처리에 사용할 인터페이스 이름 :
+      ActionListner // java.awt.event 패키지
+4. 이벤트 처리기(Event Handler) :
+      명령어를 갖는 함수
+      actionPerformed( )
+5. actionPerformed( ) 함수 안에
+   사용자가 버튼을 클릭할 경우에
+   실행할 명령어들을 작성하시면 됩니다!!
+6. addActionListener( ) 함수를 호출해서
+   버튼과 actionPerformed( ) 함수를 연결

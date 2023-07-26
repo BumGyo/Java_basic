@@ -1,0 +1,27 @@
+* 큐(Queue) 자료 구조를 클래스로 설계하기
+
+1. 정적 배열을 사용하겠습니다!!
+
+1) 클래스 이름 정하기 : MyQueue
+2) 멤버 변수들을 선언 또는 메모리에 객체를 생성
+   가. 최대 10개의 정수를 보관할 수 있는
+       정적 배열을 선언하고 메모리에 생성하기
+   private int iarray[] = new int [ 10 ];
+   -> public static final int ARRAY_SIZE = 10;
+   -> private int iarray[] = 
+                 new int [ ARRAY_SIZE ];
+
+3) front(head) : 머리 변수가 필요 합니다.
+   -> 배열에서 데이터를 꺼내올 때만 사용할 변수
+4) rear(tail) : 꼬리 변수가 필요 합니다.
+   -> 배열에 데이터를 저장할 때만 사용할 변수
+// 새로운 클래스를 만들어 주세요 : 
+// 이름은 TestMyQueueClass
+
+
+
+
+
+
+
+

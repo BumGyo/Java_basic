@@ -1,0 +1,33 @@
+* 자바2 일차별 커리큘럼
+
+1. 오리엔테이션, 프로그램 설치
+
+2. 자료 구조의 이해, 배열/스택 자료 구조의 이해와 예제 작성
+
+3. 제네릭(Generic)과 컬렉션(Collection)에 대한 이해, 제네릭 클래스와 메소드
+
+4. 컬렉션 인터페이스에 대한 이해, 큐/연결 리스트 자료 구조의 이해와 예제 작성
+
+5. 네트워크(Network)와 소켓(Socket)에 대한 이해, IP(Internet Protocol) 주소를 다루는 InetAddress 클래스, 예제 작성
+
+6. URL(Uniform Resource Locator)에 대한 이해, URLConnection 클래스, 예제 작성
+
+7. 소켓 프로그래밍의 이해, TCP(Transmission Control Protocol)의 이해, 기본 구조, 예제 작성
+
+8. UDP(User Datagram Protocol)의 이해, 기본 구조, 예제 작성
+
+9. 오라클 데이터베이스 개요, 오라클 데이터베이스 설치, SQL(Structured Query Lanaguage)에 대한 이해
+
+10. DDL(Data Definition Language)에 대한 이해, Create Table 문장에 대한 이해와 예제 작성
+
+11. Alter Table/ Drop Table 문장에 대한 이해와 예제 작성,  
+
+12. DML(Data Manipulation Language)에 대한 이해, Select 문장에 대한 이해와 예제 작성
+13. Insert/Delete/Update 문장에 대한 이해와 예제 작성
+14. JDBC(Java DataBase Connectivity)에 대한 이해, 기본 구조의 이해, 주요 클래스 살펴보기
+15. 오라클 데이터베이스에서 데이터를 검색하는 예제 작성, 트랜잭션(Transaction)의 이해
+16. MySQL 데이터베이스 개요, MySQL 데이터베이스 설치, 오라클 데이터베이스와의 SQL 비교, 기본 예제 작성
+17. 채팅 프로그램 개요, 필요한 기능과 데이터 정리, 기능 간에 관계 설정(프로그램 전체 설계)
+18. 소스 전체 개요, 프로토콜 규약(약속) 정하기, 서버/클라이언트 관계 설정
+19. 화면 설계 및 클래스와 기능 구현(1)
+20. 클래스와 기능 구현(2)

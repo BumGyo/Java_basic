@@ -1,0 +1,19 @@
+* www.naver.com : 
+   네이버 홈 페이지 
+   주소(Uniform Resource Locator)
+   : URL
+
+* www.naver.com -> 숫자로 변환
+  -> IP(Internet Protocol) 번호(주소 : Address)
+
+* 윈도우 로고 키 + R 키를 동시에 누르세요!!
+
+
+
+
+
+
+
+
+
+

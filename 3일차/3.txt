@@ -1,0 +1,15 @@
+* GUI 형식을 갖는 프로그램을 만들기
+
+1. AWT(Abstract Window Toolkit)
+    -> 추상 윈도우 툴킷 : Frame 부모 클래스를 상속 받는 자식 클래스를
+         구현한 다음에 명령어를 작성하시면 됩니다!!
+
+2. Frame 클래스를 사용하시려면 import java.awt.Frame;
+예) class 새로운_자식_클래스이름 extends Frame {  }
+// -> Frame 클래스의 역할(기능) : 화면에 하나의 윈도우(창)을 만들어 줍니다!!
+// -> 새로운 자바 클래스를 만들어 주세요 : 
+        TestAWTStudentScoreCollection.java
+
+
+
+

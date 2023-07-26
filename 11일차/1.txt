@@ -1,0 +1,49 @@
+* 로또 번호를 보관할 수 있는 HashSet 객체를 메모리에 생성
+-> 6개의 로또 번호를 보관할 수 있는 HashSet 객체를 만들기
+   예) HashSet<Integer> // 정상 : 무조건 클래스를 사용
+   예) HashSet<int> // 오류
+
+HashSet<Integer> refLottoHashSet = new HashSet<Integer>();
+
+2) 로또 번호를 만들어주는 부분(명령어)을 작성 :
+   java.util 패키지에 있는 Random 클래스를 사용하기
+   예) import java.util.Random; // 수입 명령어 작성
+   예) // Random 클래스를 메모리에 생성하기
+       Random random = new Random(시간); 
+       // 시간 : seed(씨앗 또는 시작) : 시간을 Random 클래스에
+       // 전달해 주면 새로운 난수를 만들 때 마다
+       // 시간을 사용해서 이전에 만들었던 난수와는 다른 난수를
+       // 만듭니다!!
+시간을 구하는 방법 : 
+   System.currentTimeMillis( ); // 현재 시간을 long 자료형으로
+   // 반환
+Random random = new Random(System.currentTimeMillis());
+// 밀리세컨드 : 1 / 1000 초
+// -> 새로운 클래스를 만들어서 로또 번호를 만들고
+// -> HashSet 메모리에 저장하는 예제를 작성합니다!!
+// -> TestLottoHashSetClass
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    

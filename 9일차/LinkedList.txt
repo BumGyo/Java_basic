@@ -1,0 +1,37 @@
+* 자바에서는 java.util 패키지에 LinkedList
+  클래스를 제공 : 큐(Queue) 자료 구조를 구현한
+  클래스
+
+1) import java.util.LinkedList;
+
+2) LinkedList<큐 메모리에 저장할 데이터 타입>
+     참조변수이름 = 
+new LinkedList<큐 메모리에 저장할 데이터 타입>();
+
+-> 예) 큐 메모리에 문자열 데이터를 저장하고
+   싶은 경우에는
+LinkedList<String> refLinkedList = 
+    new LinkedList<String>();
+
+3) 큐 메모리에 새로운 데이터를 저장하는 경우
+가. add( ) 함수를 호출
+나. offer( ) 함수를 호출
+
+4) 큐 메모리에서 데이터를 꺼내오는 경우
+가. peek( ) 함수를 호출 : 
+    front 변수가 갖고 있는 배열의 위치 번호에서
+    하나의 데이터를 반환 + 반환한 데이터를
+    배열에서 삭제하지 않음
+
+나. poll( ) 함수를 호출 :
+     front 변수가 갖고 있는 
+     배열의 위치 번호에서 하나의 데이터를 반환
+     + 반환한 데이터를 배열에서 삭제
+
+
+
+
+
+
+
+

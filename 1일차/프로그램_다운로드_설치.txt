@@ -1,0 +1,27 @@
+* 프로그램 다운로드 및 설치
+
+1. 작업 디렉토리를 만들어 주세요!!
+
+c:\아이디-> 영문으로 시작 + 숫자 + 기호
+
+예) hsyea@naver.com -> c:\hsyea 디렉토리를 만들겠습니다!!
+
+2. 프로그램 다운로드 하기
+1) 이클립스 : www.eclipse.org
+2) JDK : www.oracle.com
+3) 데이터베이스 : 
+     MySQL + 오라클(Oracle) : www.oracle.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,22 @@
+* 특정 조건을 만족하는 학생 데이터들을 검색하기
+1. 학생 성별이 남자를 만족하는 학생 데이터들을 검색하기
+String selectSQL2 = 
+  "select * from tbl_student where student_gender='남자'";
+
+또는
+String selectSQL3 = 
+   "select * from tbl_student where student_gender=?";
+
+2. 학생 성별이 여자를 만족하는 학생 데이터들을 검색하기
+String selectSQL4 = 
+   "select * from tbl_student where student_gender='여자'";
+또는
+String selectSQL4 = 
+   "select * from tbl_student where student_gender=?";
+
+
+
+
+
+
+

@@ -1,0 +1,9 @@
+* 채팅(Chatting) 프로그램의 구현
+
+1. 서버(Server) 일을 담당할 프로그램을 작성
+-> 서버 : 데이터(서비스)를 제공해주는 컴퓨터
+-> 클래스 이름 : MyChattingServerClass
+
+2. 클라이언트(Client) 일을 담당할 프로그램을 작성
+-> 클라이언트 : 데이터를 요청하는 컴퓨터
+-> 클래스 이름 : MyChattingClientClass

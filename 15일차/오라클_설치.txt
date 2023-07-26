@@ -1,0 +1,59 @@
+* 오라클 데이터베이스 관리 시스템 설치
+
+1. system 또는 sys 사용자 계정에 대한
+   비밀 번호 입력하기
+-> 로그인(Login) 필수
+-> 사용자 계정 이름
+-> 슈퍼 유저
+
+2. 새로운 사용자 계정은 추가하셔야 합니다!!
+1) system 또는 sys 사용자 계정 이름을 사용해서
+   오라클 데이터베이스 관리 시스템에 로그인
+2) create user sql 명령어를 사용해서
+   새로운 일반 사용자 계정을 만들어야 합니다!!
+
+가. create user sql 명령어의 작성 방법
+create user 새로운_사용자_계정이름
+   identified by  비밀번호 ;
+
+예) create user 
+       test_user1 identified by '비밀번호';
+
+나. 새로 만든 사용자 계정에 권한 부여하기
+-> grant sql 명령어를 사용
+-> grant 권한이름 to 사용자계정이름;
+예) grant connect, resource, dba to test_user1;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,31 @@
+* 새로운 사용자 계정인 test_user1 만들기
+
+1. create user sql 명령어를 입력하고 실행하기
+create user test_user1 identified by '1234';
+
+2. 1번에서 만든 사용자에게 권한 부여하기
+-> test_user1 사용자 계정을 사용해서
+   오라클 데이터베이스 관리 시스템에 로그인하기
+   위해서는 connect 권한이 있어야 합니다!!
+grant connect to test_user1;
+
+-> 테이블(Table), 인덱스(Index), 뷰(View),
+   함수(Function) 등을 사용하기 위한 권한은
+   resource
+grant resource to test_user1;
+-> grant connect, resource to test_user1;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
